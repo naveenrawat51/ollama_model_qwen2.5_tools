@@ -119,8 +119,3 @@ async function callOllamaWithTools(
 }
 
 callOllamaWithTools();
-
-// configure chat tools (first ollama call)
-// decide if tools are needed based on the prompt, and if so, which ones
-// invoke the tools and get the results
-// make a second call to ollama with the tool results and the original prompt to get the final response
